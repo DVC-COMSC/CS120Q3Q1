@@ -2,17 +2,19 @@
 using namespace std;
 int main()
 {
-  int rdnum1, rdnum2, rdnum3;
-
+  int num1, num2, num3;
+  
   /* ************************************
-  You should make a code segment to generate three random numbers.
-  And calculate the summation and average of random numbers.
     Code your program here
+    Take three user input
+    Calculate sum and average
+    print the result with two precision number
+      Input Example 1
+      10.0 20.0 30.0
+      Output Example 1
+      60.00 20.00
   ************************************ */
 
   cout << setprecision(2) << fixed;
-  cout << "Random values are " << rdnum1 << "\t" << rdnum2 << "\t" << rdnum3 << endl;
-  cout << "Total summation: " << total << "\t"
-       << "Average "
-       << "\t" << average << endl;
+
 }
