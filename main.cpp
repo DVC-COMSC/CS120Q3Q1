@@ -1,20 +1,19 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 int main()
 {
-  int num1, num2, num3;
-  
+  int a, b, c;
+  double term1, term2, term3;
+  double result1, result2;
+
+  cout << "Enter the coeffecient numbers: a, b, and c: ";
+  cin >> a >> b >> c;
+
   /* ************************************
     Code your program here
-    Take three user input
-    Calculate sum and average
-    print the result with two precision number
-      Input Example 1
-      10.0 20.0 30.0
-      Output Example 1
-      60.00 20.00
   ************************************ */
 
   cout << setprecision(2) << fixed;
-
+  cout << "result 1 " << result1 << "\t" << result2 << endl;
 }
